@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "65fa15ea739763135e0c3fe4"
+  },
+  "name": "Encanador",
+  "area": "Construção Civil"
+},
+{
+  "_id": {
+    "$oid": "65fa1628739763135e0c3fe6"
+  },
+  "name": "Software Engineer",
+  "area": "Information Technology"
+},
+{
+  "_id": {
+    "$oid": "65fa1633739763135e0c3fe8"
+  },
+  "name": "Marketing Manager",
+  "area": "Marketing"
+}]
