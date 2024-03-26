@@ -1,0 +1,63 @@
+{
+    "count": 4,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 4,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 4,
+            "probability": 1,
+            "unique": 4,
+            "hasDuplicates": false,
+            "values": [
+              "65fa16ba739763135e0c3fef",
+              "65fa16a9739763135e0c3feb",
+              "65fa16b2739763135e0c3fed",
+              "65fa16c5739763135e0c3ff1"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "path": [
+          "name"
+        ],
+        "count": 4,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "name"
+            ],
+            "count": 4,
+            "probability": 1,
+            "unique": 4,
+            "hasDuplicates": false,
+            "values": [
+              "Trocar lampada",
+              "Reboco",
+              "Pintura",
+              "Instalar porta"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,89 @@
+{
+    "count": 3,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 3,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 3,
+            "probability": 1,
+            "unique": 3,
+            "hasDuplicates": false,
+            "values": [
+              "65fa1633739763135e0c3fe8",
+              "65fa15ea739763135e0c3fe4",
+              "65fa1628739763135e0c3fe6"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "area",
+        "path": [
+          "area"
+        ],
+        "count": 3,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "area"
+            ],
+            "count": 3,
+            "probability": 1,
+            "unique": 3,
+            "hasDuplicates": false,
+            "values": [
+              "Marketing",
+              "Construção Civil",
+              "Information Technology"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "path": [
+          "name"
+        ],
+        "count": 3,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "name"
+            ],
+            "count": 3,
+            "probability": 1,
+            "unique": 3,
+            "hasDuplicates": false,
+            "values": [
+              "Marketing Manager",
+              "Encanador",
+              "Software Engineer"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      }
+    ]
+  }

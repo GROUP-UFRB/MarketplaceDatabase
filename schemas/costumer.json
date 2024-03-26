@@ -1,0 +1,236 @@
+{
+    "count": 9,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 9,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 9,
+            "probability": 1,
+            "unique": 9,
+            "hasDuplicates": false,
+            "values": [
+              "65fcae6cb038d1f3f2e8424c",
+              "65fa18e2739763135e0c401c",
+              "65fa18d2739763135e0c401a",
+              "65fa18b5739763135e0c4016",
+              "65fcad74b038d1f3f2e8424a",
+              "65fcaaadb038d1f3f2e84223",
+              "65fa18c8739763135e0c4018",
+              "65fcae81b038d1f3f2e84250",
+              "65fa188e739763135e0c4014"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "contact",
+        "path": [
+          "contact"
+        ],
+        "count": 9,
+        "type": "Document",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "Document",
+            "path": [
+              "contact"
+            ],
+            "count": 9,
+            "probability": 1,
+            "bsonType": "Document",
+            "fields": [
+              {
+                "name": "email",
+                "path": [
+                  "contact",
+                  "email"
+                ],
+                "count": 7,
+                "type": [
+                  "String",
+                  "Undefined"
+                ],
+                "probability": 0.7777777777777778,
+                "hasDuplicates": true,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "contact",
+                      "email"
+                    ],
+                    "count": 7,
+                    "probability": 0.7777777777777778,
+                    "unique": 6,
+                    "hasDuplicates": true,
+                    "values": [
+                      "hsfosfh@opa.com",
+                      "software@example.com",
+                      "opa@opa.com",
+                      "hsfosfh@opa.com",
+                      "geraldo@geraldo.geraldo",
+                      "sales@example.com",
+                      "hsfosfh@dphfds.com"
+                    ],
+                    "bsonType": "String"
+                  },
+                  {
+                    "name": "Undefined",
+                    "bsonType": "Undefined",
+                    "unique": 0,
+                    "hasDuplicates": true,
+                    "path": [
+                      "contact",
+                      "email"
+                    ],
+                    "count": 2,
+                    "probability": 0.2222222222222222
+                  }
+                ]
+              },
+              {
+                "name": "name",
+                "path": [
+                  "contact",
+                  "name"
+                ],
+                "count": 1,
+                "type": [
+                  "String",
+                  "Undefined"
+                ],
+                "probability": 0.1111111111111111,
+                "hasDuplicates": true,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "contact",
+                      "name"
+                    ],
+                    "count": 1,
+                    "probability": 0.1111111111111111,
+                    "unique": 1,
+                    "hasDuplicates": false,
+                    "values": [
+                      "Software Engineer"
+                    ],
+                    "bsonType": "String"
+                  },
+                  {
+                    "name": "Undefined",
+                    "bsonType": "Undefined",
+                    "unique": 0,
+                    "hasDuplicates": true,
+                    "path": [
+                      "contact",
+                      "name"
+                    ],
+                    "count": 8,
+                    "probability": 0.8888888888888888
+                  }
+                ]
+              },
+              {
+                "name": "number",
+                "path": [
+                  "contact",
+                  "number"
+                ],
+                "count": 6,
+                "type": [
+                  "String",
+                  "Undefined"
+                ],
+                "probability": 0.6666666666666666,
+                "hasDuplicates": true,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "contact",
+                      "number"
+                    ],
+                    "count": 6,
+                    "probability": 0.6666666666666666,
+                    "unique": 5,
+                    "hasDuplicates": true,
+                    "values": [
+                      "239203",
+                      "+1234567890",
+                      "239203",
+                      "292992",
+                      "+9876543210",
+                      "4013"
+                    ],
+                    "bsonType": "String"
+                  },
+                  {
+                    "name": "Undefined",
+                    "bsonType": "Undefined",
+                    "unique": 0,
+                    "hasDuplicates": true,
+                    "path": [
+                      "contact",
+                      "number"
+                    ],
+                    "count": 3,
+                    "probability": 0.3333333333333333
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "path": [
+          "name"
+        ],
+        "count": 9,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": true,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "name"
+            ],
+            "count": 9,
+            "probability": 1,
+            "unique": 7,
+            "hasDuplicates": true,
+            "values": [
+              "k",
+              "Software Engineer",
+              "Marketing Manager",
+              "carlos",
+              "k",
+              "Geraldo",
+              "Sales Representative",
+              "k",
+              "junior"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,696 @@
+{
+    "count": 2,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 2,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "66034f25c2a78a7191194274",
+              "66034f99c2a78a7191194281"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "address",
+        "path": [
+          "address"
+        ],
+        "count": 2,
+        "type": "Document",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "Document",
+            "path": [
+              "address"
+            ],
+            "count": 2,
+            "probability": 1,
+            "bsonType": "Document",
+            "fields": [
+              {
+                "name": "city",
+                "path": [
+                  "address",
+                  "city"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "city"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "São Paulo",
+                      "Rio de Janeiro"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "complement",
+                "path": [
+                  "address",
+                  "complement"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "complement"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "Apto 101",
+                      "Casa 201"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "district",
+                "path": [
+                  "address",
+                  "district"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "district"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "Centro",
+                      "Copacabana"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "number",
+                "path": [
+                  "address",
+                  "number"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "number"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "100",
+                      "200"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "reference",
+                "path": [
+                  "address",
+                  "reference"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "reference"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "Próximo à praça central",
+                      "Próximo à praia"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "state",
+                "path": [
+                  "address",
+                  "state"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "state"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "São Paulo",
+                      "Rio de Janeiro"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "street",
+                "path": [
+                  "address",
+                  "street"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "street"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "Rua A",
+                      "Avenida B"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "zipCode",
+                "path": [
+                  "address",
+                  "zipCode"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "address",
+                      "zipCode"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "12345-678",
+                      "54321-098"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "availability",
+        "path": [
+          "availability"
+        ],
+        "count": 2,
+        "type": "Boolean",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "Boolean",
+            "path": [
+              "availability"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              true,
+              false
+            ],
+            "bsonType": "Boolean"
+          }
+        ]
+      },
+      {
+        "name": "contact",
+        "path": [
+          "contact"
+        ],
+        "count": 2,
+        "type": "Document",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "Document",
+            "path": [
+              "contact"
+            ],
+            "count": 2,
+            "probability": 1,
+            "bsonType": "Document",
+            "fields": [
+              {
+                "name": "email",
+                "path": [
+                  "contact",
+                  "email"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "contact",
+                      "email"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "joao.silva@example.com",
+                      "maria.oliveira@example.com"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              },
+              {
+                "name": "number",
+                "path": [
+                  "contact",
+                  "number"
+                ],
+                "count": 2,
+                "type": "String",
+                "probability": 1,
+                "hasDuplicates": false,
+                "types": [
+                  {
+                    "name": "String",
+                    "path": [
+                      "contact",
+                      "number"
+                    ],
+                    "count": 2,
+                    "probability": 1,
+                    "unique": 2,
+                    "hasDuplicates": false,
+                    "values": [
+                      "+5511987654321",
+                      "+5511987654322"
+                    ],
+                    "bsonType": "String"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "cpf",
+        "path": [
+          "cpf"
+        ],
+        "count": 1,
+        "type": [
+          "String",
+          "Undefined"
+        ],
+        "probability": 0.5,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "cpf"
+            ],
+            "count": 1,
+            "probability": 0.5,
+            "unique": 1,
+            "hasDuplicates": false,
+            "values": [
+              "23456789012"
+            ],
+            "bsonType": "String"
+          },
+          {
+            "name": "Undefined",
+            "bsonType": "Undefined",
+            "unique": 1,
+            "hasDuplicates": false,
+            "path": [
+              "cpf"
+            ],
+            "count": 1,
+            "probability": 0.5
+          }
+        ]
+      },
+      {
+        "name": "jobs",
+        "path": [
+          "jobs"
+        ],
+        "count": 2,
+        "type": "Array",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "Array",
+            "path": [
+              "jobs"
+            ],
+            "count": 2,
+            "probability": 1,
+            "bsonType": "Array",
+            "types": [
+              {
+                "name": "Document",
+                "path": [
+                  "jobs"
+                ],
+                "count": 2,
+                "probability": 1,
+                "bsonType": "Document",
+                "fields": [
+                  {
+                    "name": "id",
+                    "path": [
+                      "jobs",
+                      "id"
+                    ],
+                    "count": 2,
+                    "type": "String",
+                    "probability": 1,
+                    "hasDuplicates": false,
+                    "types": [
+                      {
+                        "name": "String",
+                        "path": [
+                          "jobs",
+                          "id"
+                        ],
+                        "count": 2,
+                        "probability": 1,
+                        "unique": 2,
+                        "hasDuplicates": false,
+                        "values": [
+                          "1",
+                          "2"
+                        ],
+                        "bsonType": "String"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "name",
+                    "path": [
+                      "jobs",
+                      "name"
+                    ],
+                    "count": 2,
+                    "type": "String",
+                    "probability": 1,
+                    "hasDuplicates": false,
+                    "types": [
+                      {
+                        "name": "String",
+                        "path": [
+                          "jobs",
+                          "name"
+                        ],
+                        "count": 2,
+                        "probability": 1,
+                        "unique": 2,
+                        "hasDuplicates": false,
+                        "values": [
+                          "Carpinteiro",
+                          "Encanador"
+                        ],
+                        "bsonType": "String"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "services",
+                    "path": [
+                      "jobs",
+                      "services"
+                    ],
+                    "count": 2,
+                    "type": "Array",
+                    "probability": 1,
+                    "hasDuplicates": false,
+                    "types": [
+                      {
+                        "name": "Array",
+                        "path": [
+                          "jobs",
+                          "services"
+                        ],
+                        "count": 2,
+                        "probability": 1,
+                        "bsonType": "Array",
+                        "types": [
+                          {
+                            "name": "Document",
+                            "path": [
+                              "jobs",
+                              "services"
+                            ],
+                            "count": 4,
+                            "probability": 1,
+                            "bsonType": "Document",
+                            "fields": [
+                              {
+                                "name": "id",
+                                "path": [
+                                  "jobs",
+                                  "services",
+                                  "id"
+                                ],
+                                "count": 4,
+                                "type": "String",
+                                "probability": 1,
+                                "hasDuplicates": false,
+                                "types": [
+                                  {
+                                    "name": "String",
+                                    "path": [
+                                      "jobs",
+                                      "services",
+                                      "id"
+                                    ],
+                                    "count": 4,
+                                    "probability": 1,
+                                    "unique": 4,
+                                    "hasDuplicates": false,
+                                    "values": [
+                                      "1",
+                                      "2",
+                                      "3",
+                                      "4"
+                                    ],
+                                    "bsonType": "String"
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "name",
+                                "path": [
+                                  "jobs",
+                                  "services",
+                                  "name"
+                                ],
+                                "count": 4,
+                                "type": "String",
+                                "probability": 1,
+                                "hasDuplicates": false,
+                                "types": [
+                                  {
+                                    "name": "String",
+                                    "path": [
+                                      "jobs",
+                                      "services",
+                                      "name"
+                                    ],
+                                    "count": 4,
+                                    "probability": 1,
+                                    "unique": 4,
+                                    "hasDuplicates": false,
+                                    "values": [
+                                      "Instalação de portas",
+                                      "Construção de móveis",
+                                      "Reparo de vazamentos",
+                                      "Instalação de chuveiros"
+                                    ],
+                                    "bsonType": "String"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "totalCount": 4,
+                        "lengths": [
+                          2,
+                          2
+                        ],
+                        "averageLength": 2
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "totalCount": 2,
+            "lengths": [
+              1,
+              1
+            ],
+            "averageLength": 1
+          }
+        ]
+      },
+      {
+        "name": "name",
+        "path": [
+          "name"
+        ],
+        "count": 2,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "name"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "João Silva",
+              "Maria Oliveira"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "userId",
+        "path": [
+          "userId"
+        ],
+        "count": 2,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "userId"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "1",
+              "2"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      }
+    ]
+  }

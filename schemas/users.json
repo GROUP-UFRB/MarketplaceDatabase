@@ -1,0 +1,121 @@
+{
+    "count": 4,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 4,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 4,
+            "probability": 1,
+            "unique": 4,
+            "hasDuplicates": false,
+            "values": [
+              "65fa12b9739763135e0c3fd2",
+              "65fa11d6739763135e0c3fcd",
+              "65fa12c2739763135e0c3fd4",
+              "65fa12b4739763135e0c3fd0"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "email",
+        "path": [
+          "email"
+        ],
+        "count": 4,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "email"
+            ],
+            "count": 4,
+            "probability": 1,
+            "unique": 4,
+            "hasDuplicates": false,
+            "values": [
+              "emily.davis@example.com",
+              "vinicius.meirelles@aluno.ufrb.edu.br",
+              "olivia.miller@example.com",
+              "sarah.jones@example.com"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "password",
+        "path": [
+          "password"
+        ],
+        "count": 4,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "password"
+            ],
+            "count": 4,
+            "probability": 1,
+            "unique": 4,
+            "hasDuplicates": false,
+            "values": [
+              "davis789",
+              "minhasenha123",
+              "miller456",
+              "jones456"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "userType",
+        "path": [
+          "userType"
+        ],
+        "count": 4,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": true,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "userType"
+            ],
+            "count": 4,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": true,
+            "values": [
+              "client",
+              "admin",
+              "admin",
+              "admin"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      }
+    ]
+  }
