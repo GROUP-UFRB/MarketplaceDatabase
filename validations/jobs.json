@@ -1,0 +1,19 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'name',
+        'area'
+      ],
+      properties: {
+        name: {
+          bsonType: 'string',
+          description: 'The title of the job'
+        },
+        area: {
+          bsonType: 'string',
+          description: 'The area of the job'
+        }
+      }
+    }
+  }

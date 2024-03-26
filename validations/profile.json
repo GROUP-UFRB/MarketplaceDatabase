@@ -1,0 +1,129 @@
+{
+    $jsonSchema: {
+      bsonType: 'object',
+      required: [
+        'userId',
+        'name',
+        'contact',
+        'cpf',
+        'address',
+        'jobs',
+        'availability'
+      ],
+      properties: {
+        name: {
+          bsonType: 'string',
+          description: 'The name of the worker'
+        },
+        contact: {
+          bsonType: 'object',
+          description: 'Contact information',
+          properties: {
+            email: {
+              bsonType: 'string',
+              pattern: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$',
+              description: 'Must be a valid email address'
+            },
+            number: {
+              bsonType: 'string',
+              description: 'Must be a string representing a phone number'
+            }
+          },
+          additionalProperties: false,
+          minProperties: 1
+        },
+        cpf: {
+          bsonType: 'string',
+          description: 'The CPF of the worker'
+        },
+        address: {
+          bsonType: 'object',
+          description: 'Worker address information',
+          properties: {
+            zipCode: {
+              bsonType: 'string',
+              description: 'Worker zipCode'
+            },
+            state: {
+              bsonType: 'string',
+              description: 'Worker state'
+            },
+            city: {
+              bsonType: 'string',
+              description: 'Worker city'
+            },
+            district: {
+              bsonType: 'string',
+              description: 'Worker district'
+            },
+            street: {
+              bsonType: 'string',
+              description: 'Worker street'
+            },
+            number: {
+              bsonType: 'string',
+              description: 'Worker address number'
+            },
+            complement: {
+              bsonType: 'string',
+              description: 'Worker address complement'
+            },
+            reference: {
+              bsonType: 'string',
+              description: 'Worker address reference'
+            }
+          },
+          required: [
+            'zipCode',
+            'state',
+            'city',
+            'district',
+            'street',
+            'number'
+          ],
+          additionalProperties: false,
+          minProperties: 6
+        },
+        jobs: {
+          bsonType: 'array',
+          description: 'Workers jobs and associated services',
+          items: {
+            bsonType: 'object',
+            properties: {
+              id: {
+                bsonType: 'string'
+              },
+              name: {
+                bsonType: 'string'
+              },
+              services: {
+                bsonType: 'array',
+                items: {
+                  bsonType: 'object',
+                  properties: {
+                    id: {
+                      bsonType: 'string'
+                    },
+                    name: {
+                      bsonType: 'string'
+                    }
+                  }
+                },
+                additionalItems: false
+              }
+            },
+            required: [
+              'id',
+              'name'
+            ],
+            additionalProperties: false
+          },
+          additionalItems: false
+        },
+        availability: {
+          bsonType: 'bool',
+          description: 'Worker availability for new jobs'
+        }
+      }
+    }
+  }
