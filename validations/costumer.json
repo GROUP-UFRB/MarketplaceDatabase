@@ -1,32 +1,32 @@
 {
-    $jsonSchema: {
-      bsonType: 'object',
-      required: [
-        'name',
-        'contact'
-      ],
-      properties: {
-        name: {
-          bsonType: 'string',
-          description: 'The name of the job'
+  "$jsonSchema":{
+     "bsonType":"object",
+     "required":[
+        "name",
+        "contact"
+     ],
+     "properties":{
+        "name":{
+           "bsonType":"string",
+           "description":"The name of the job"
         },
-        contact: {
-          bsonType: 'object',
-          description: 'Contact information',
-          properties: {
-            email: {
-              bsonType: 'string',
-              pattern: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$',
-              description: 'Must be a valid email address'
-            },
-            number: {
-              bsonType: 'string',
-              description: 'Must be a string representing a phone number'
-            }
-          },
-          additionalProperties: false,
-          minProperties: 1
+        "contact":{
+           "bsonType":"object",
+           "description":"Contact information",
+           "properties":{
+              "email":{
+                 "bsonType":"string",
+                 "pattern":"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+                 "description":"Must be a valid email address"
+              },
+              "number":{
+                 "bsonType":"string",
+                 "description":"Must be a string representing a phone number"
+              }
+           },
+           "additionalProperties":false,
+           "minProperties":1
         }
-      }
-    }
+     }
   }
+}

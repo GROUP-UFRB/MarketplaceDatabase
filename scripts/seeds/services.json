@@ -1,0 +1,167 @@
+[
+    {
+        "job": "Pedreiro",
+        "services": [
+            "Levantar paredes de alvenaria",
+            "Rebocar paredes",
+            "Aplicar massa corrida",
+            "Assentar pisos e revestimentos cerâmicos",
+            "Construir calçadas",
+            "Fazer contrapisos",
+            "Fazer acabamentos em concreto",
+            "Construir churrasqueiras",
+            "Fazer fundações",
+            "Construir muros"
+        ]
+    },
+    {
+        "job": "Encanador",
+        "services": [
+            "Instalar tubulações de água quente e fria",
+            "Instalar tubulações de esgoto",
+            "Consertar vazamentos de água",
+            "Desentupir pias, ralos e vasos sanitários",
+            "Instalar torneiras, chuveiros e válvulas",
+            "Instalar sistemas de aquecimento de água",
+            "Instalar sistemas de irrigação",
+            "Realizar manutenção preventiva em sistemas hidráulicos",
+            "Realizar inspeções de tubulações",
+            "Substituir canos danificados"
+        ]
+    },
+    {
+        "job": "Eletricista",
+        "services": [
+            "Instalar fiação elétrica",
+            "Instalar tomadas e interruptores",
+            "Instalar luminárias e lustres",
+            "Realizar manutenção em quadros elétricos",
+            "Instalar sistemas de iluminação",
+            "Realizar aterramento elétrico",
+            "Instalar sensores de movimento",
+            "Instalar sistemas de segurança eletrônica",
+            "Realizar manutenção preventiva em instalações elétricas",
+            "Identificar e corrigir problemas elétricos"
+        ]
+    },
+    {
+        "job": "Técnico de Ar Condicionado",
+        "services": [
+            "Instalar unidades de ar condicionado",
+            "Realizar manutenção preventiva em sistemas de ar condicionado",
+            "Diagnosticar problemas em sistemas de ar condicionado",
+            "Reparar vazamentos de refrigerante",
+            "Limpar filtros de ar",
+            "Recarregar sistemas de refrigerante",
+            "Realizar testes de eficiência energética",
+            "Substituir componentes danificados",
+            "Instalar sistemas de ventilação",
+            "Realizar balanceamento térmico"
+        ]
+    },
+    {
+        "job": "Ferreiro",
+        "services": [
+            "Fabricar grades de proteção",
+            "Fabricar portões",
+            "Fabricar estruturas metálicas",
+            "Reparar peças de metal",
+            "Forjar ferramentas",
+            "Fabricar suportes e prateleiras",
+            "Fabricar peças decorativas",
+            "Soldar componentes metálicos",
+            "Fabricar mobiliário de metal",
+            "Reparar portas e janelas de metal"
+        ]
+    },
+    {
+        "job": "Carpinteiro",
+        "services": [
+            "Fabricar móveis sob medida",
+            "Instalar portas e janelas de madeira",
+            "Construir estruturas de madeira",
+            "Instalar assoalhos de madeira",
+            "Fazer acabamentos em madeira",
+            "Reparar móveis e estruturas de madeira",
+            "Construir escadas de madeira",
+            "Fabricar decks e pergolados",
+            "Instalar rodapés e guarnições",
+            "Fazer molduras e entalhes em madeira"
+        ]
+    },
+    {
+        "job": "Marceneiro",
+        "services": [
+            "Fabricar móveis sob medida",
+            "Instalar portas e janelas de madeira",
+            "Construir estruturas de madeira",
+            "Instalar assoalhos de madeira",
+            "Fazer acabamentos em madeira",
+            "Reparar móveis e estruturas de madeira",
+            "Construir escadas de madeira",
+            "Fabricar decks e pergolados",
+            "Instalar rodapés e guarnições",
+            "Fazer molduras e entalhes em madeira"
+        ]
+    },
+    {
+        "job": "Pintor",
+        "services": [
+            "Pintura de paredes internas",
+            "Pintura de paredes externas",
+            "Pintura de portas e janelas",
+            "Pintura de móveis",
+            "Pintura de grades e portões",
+            "Pintura de fachadas",
+            "Pintura de tetos",
+            "Pintura de pisos",
+            "Pintura decorativa",
+            "Pintura de superfícies metálicas"
+        ]
+    },
+    {
+        "job": "Azulejista",
+        "services": [
+            "Instalação de azulejos em paredes",
+            "Instalação de azulejos em pisos",
+            "Instalação de revestimentos cerâmicos",
+            "Instalação de porcelanatos",
+            "Instalação de mosaicos",
+            "Rejuntamento de azulejos",
+            "Remoção de azulejos e revestimentos antigos",
+            "Preparação de superfícies para aplicação de azulejos",
+            "Corte e ajuste de azulejos",
+            "Instalação de rodapés e acabamentos em azulejos"
+        ]
+    },
+    {
+        "job": "Vidraceiro",
+        "services": [
+            "Instalação de janelas de vidro",
+            "Instalação de portas de vidro",
+            "Instalação de box para banheiro",
+            "Instalação de espelhos",
+            "Instalação de vidros temperados",
+            "Instalação de divisórias de vidro",
+            "Instalação de coberturas de vidro",
+            "Substituição de vidros quebrados",
+            "Corte e ajuste de vidros",
+            "Instalação de películas de proteção solar"
+        ]
+    },
+    {
+        "job": "Serralheiro",
+        "services": [
+            "Fabricação e instalação de grades de ferro",
+            "Fabricação e instalação de portões de ferro",
+            "Fabricação e instalação de estruturas metálicas",
+            "Fabricação e instalação de portas de aço",
+            "Fabricação e instalação de janelas de ferro",
+            "Reparação de estruturas metálicas",
+            "Fabricação e instalação de escadas metálicas",
+            "Fabricação e instalação de corrimões de ferro",
+            "Fabricação e instalação de coberturas metálicas",
+            "Fabricação e instalação de guarda-corpos de ferro"
+        ]
+    }
+]

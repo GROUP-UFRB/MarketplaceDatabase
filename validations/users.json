@@ -1,31 +1,32 @@
 {
-    $jsonSchema: {
-      bsonType: 'object',
-      required: [
-        'email',
-        'password',
-        'userType'
-      ],
-      properties: {
-        email: {
-          bsonType: 'string',
-          pattern: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$',
-          description: 'Must be a valid email address'
+  "$jsonSchema":{
+     "bsonType":"object",
+     "required":[
+        "email",
+        "password",
+        "userType"
+     ],
+     "properties":{
+        "email":{
+           "bsonType":"string",
+           "pattern":"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+           "description":"Must be a valid email address"
         },
-        password: {
-          bsonType: 'string',
-          description: 'Must be a string'
+        "password":{
+           "bsonType":"string",
+           "description":"Must be a string"
         },
-        userType: {
-          bsonType: 'string',
-          'enum': [
-            'admin',
-            'manager',
-            'client',
-            'teamMember'
-          ],
-          description: 'Must be a string'
+        "userType":{
+           "bsonType":"string",
+           "enum":[
+              "admin",
+              "manager",
+              "client",
+              "teamMember",
+              "employee"
+           ],
+           "description":"Must be a string"
         }
-      }
-    }
+     }
   }
+}
